@@ -8,21 +8,155 @@
     <link rel="stylesheet" href="css/index.css">
     
     <title>Document</title>
+    <style>
+    
+    
+    body
+        {
+            background-image:url(img/bgtt.jpg);
+            font-family:"微軟正黑體"
+
+        }
+    .name 
+    {
+        border: 1px solid #364196;
+        border-left-width: 50px;
+        padding: 10px 1753px 20px 100px;
+        background-color:white;
+        display: inline-block;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
+    }
+    #content
+    {
+	padding-top:10px;
+    }
+    
+    .people
+    { 
+        box-sizing:content-box;
+        background-repeat:no-repeat;
+        padding:50px;
+    }
+    .flex{
+    display:flex;
+    align-items:center
+    }
+  
+  .flex:nth-child(2n + 1)
+  {
+    flex-direction:row-reverse
+  }
+  .people>img
+    {
+    border-radius:50%;display:block;max-width:100%;height:auto;margin:30px;
+
+    }
+    .BoxText1 
+    {
+        border:5px #545C6A dashed;
+        padding:40px;
+        width:500px;
+        margin:0px 0px;
+    }
+
+    .title
+{
+    column-span: all;
+	text-align: center;
+    text-shadow: 0px 3px 0px white,
+
+                 0px 14px 10px rgba(0,0,0,0.15),
+
+                 0px 24px 2px rgba(0,0,0,0.1),
+
+                 0px 34px 30px rgba(0,0,0,0.1);
+}
+    </style>  
 </head>
 <body>
-    <div>
-        <h1>中原大學體育館</h1>
-        <ul class="index">
-            <li><a href="index.html">首頁</a></li>
-            <li><a href="#">行銷目標</a></li>
-            <li><a href="https://pe.cycu.edu.tw/">場館介紹</a></li>
-            <li><img src="img/中原LOGO.png" width="60px" height="60px">
-            <li><a href="teamintroduce.html">組員介紹</a></li>
-            <li><a href="#">宣傳影片</a></li>
-            <li><a href="#">聯絡我們</a></li>
+  <div>
+    <ul class="index">
+        <li><a href="index.html">首頁</a></li>
+        <ul class="drop-down-menu">
+        <li><a href="">場館介紹</a>
+            <ul>
+            <li><a href="basketball.html">籃球場、排球場、羽球場</a></li>
+            <li><a href="tabletennis.html">桌球室</a></li>
+            <li><a href="gym.html">健身房</a></li>
+            </ul>
+        </li>
         </ul>
-    </div>
+        <li><a href="video.html">宣傳影片</a></li>
+        <li><a href="https://pe.cycu.edu.tw/" target="_blank">
+            <img src="img/中原LOGO.png" width="60px" height="60px">
+            </a>
+        </li>
+        <li><a href="location.html">地理位置</a></li>
+        <li><a href="teamintroduce.html">組員介紹</a></li>
+        <li><a href="contact_us.html">聯絡我們</a></li>
+    </ul>
+  </div>
+
+    <div id="content"></div>
+
+    <h1 class="title">組員介紹</h1>
+
+    <div class="name">
+    </div>    
+       
+        <div id="people">
+        <div class="flex">
+              <div class="people">
+                <img src="img\hank.jpg"width="150px">
+                </div>
+              <div class="BoxText1">
+              <p><a href="https://www.instagram.com/how_en_hank/">陳澔恩<img src="img/ig.png"width=20px></a></p>
+                  <p>  我負責的是網頁中的地理位置和影片介紹，還有剪輯影片工作，期中專案其實蠻趕的，並沒有太多時間可以做，加上還要拍影片，而且影片還有限制兩分鐘以內其實是很大的挑戰，
+                    我們討論之後決定以臨場發揮的方式拍攝，辛苦剪輯出來的影片我自己也覺得滿意。
+                </p>
+              </div>
+        </div>
+        
+        <div class="flex">
+            <div class="people">
+              <img src="img/zhuuuuu.jpg"width="150px">
+              </div>
+            <div class="BoxText1">
+              <p><a href="https://www.instagram.com/zhu_jynyi/">朱晉毅<img src="img/ig.png"width=20px></a></p>
+              <p>我負責的是網頁中的場館介紹，我覺得期中專案給我們的時間真的有點少，因此我們這組實在是沒有特別多時間去想跟討論，所以就採取分工的方式，每個人都負責一部分。
+                我覺得期中專案讓我學習到很多關於多媒體排版的技巧，以前不熟悉的多媒體技巧都透過這次的期中專案學習到了，
+                我們做出來的專案也非常成功，大家都非常滿意。
+              </p>
+            </div>
+        </div>
     
-    <p>哈哈是我啦 豬診亦 王吱軍 屎博 陳汗思</p>
+    
+        <div class="flex">
+            <div class="people">
+              <img src="img/boyccccc.jpg"width="150px">
+              </div>
+            <div class="BoxText1">
+              <p><a href="https://www.instagram.com/boyceccc/">史博宇<img src="img/ig.png"width=20px></a></p>
+               <p> 這次專案我負責網頁中主頁的部分和影片介紹，多虧這一次的期中專案，讓我對html和css有更深的認識，除了上課所學的以外，也特地學一些課外的css加進網頁中。雖然因為時間因素，讓我們專案完成的有些許倉促
+                 ，許多細節也沒做好，但我認為這仍是一個寶貴的經驗。
+              </p>
+            </div>
+        </div>
+
+        <div class="flex">
+            <div class="people">
+              <img src="img/junnnnn.jpg"width="150px">
+              </div>
+            <div class="BoxText1">
+              <p><a href="https://www.instagram.com/junnn06.21/">王之軍<img src="img/ig.png"width=20px></a></p>
+                <p>這次的專案我負責導覽列和組員介紹，透過這次讓我學會了如何做網頁，也才知道做網頁是多麼困難，可能哪裡少打
+                    一些東西沒注意到就要從整個密密麻麻的程式碼中尋找，做的過程雖然有點艱辛，
+                    但做出來看到成品之後還蠻開心的，雖然沒有到很好，但會繼續努力學習做網頁。
+                </p>
+             
+            </div>
+      </div>
+    </div>  
+
 </body>
 </html>

@@ -1,7 +1,14 @@
+body{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}
 .index
 {
     display: flex;
     justify-content: center;
+    
+    height: 50px;
     
 }
 div > ul
@@ -28,4 +35,28 @@ div li:hover
 {
 background-color: rgb(115, 115, 115);
 color: white;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul.drop-down-menu a {
+    background-color: rgb(230, 230, 230);
+    color: black;
+    display: block;
+}
+ul.drop-down-menu li:hover>a {
+    background-color: rgb(115, 115, 115);
+    color: white;
+}
+ul.drop-down-menu ul {
+    border: #ccc 1px solid;
+    position: absolute;
+}
+ul.drop-down-menu ul {
+    display: none;
+}
+ul.drop-down-menu li:hover>ul {
+    display: block;
 }

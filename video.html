@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>影片介紹</title>
+    <style>
+        body{
+            background-image: url(img/5-120601095138.jpg);
+        }
+
+        .bg1{
+            filter: brightness(0.7);
+            position: absolute;
+            width: 1903px;
+            z-index: -1;
+            margin-top: -10%;
+        }
+        .title1{
+            position: absolute;
+            left: 110px;
+            top: 600px;
+            font-size: 100px;
+            font-family: 微軟正黑體;
+            font-weight: bolder;
+            color: whitesmoke;
+            text-shadow: black 8px 8px 8px;
+        }
+        .smalltitle{
+            position: absolute;
+            left: 112px;
+            top: 820px;
+            font-size: 30px;
+            font-family: 微軟正黑體;
+            font-weight: bolder;
+            color: whitesmoke;
+            text-shadow: black 8px 8px 8px;
+        }
+        .title2{
+            position: absolute;
+            z-index: -1;
+            top: 1050px;
+            left: 250px;
+        }
+
+        .context{
+            position: absolute;
+            z-index: -1;
+            top: 1200px;
+            left: 60px;
+        }
+        .video{
+            position: absolute;
+            top: 1100px;
+            left: 1000px;
+        }
+        div1{
+            width: 650px;
+            height: 100%;
+            background-color: rgb(195, 223, 209);
+            box-shadow: rgb(23, 85, 75) 10px 10px 10px;
+            border-radius: 50px;
+            position: relative;
+            padding: 30px;
+            margin: 0px;
+            float: left;
+            top: 1100px;
+            left: 125px;
+        }
+        
+    </style>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    
+    <div>
+        <ul class="index">
+            <li><a href="index.html">網站首頁</a></li>
+            <ul class="drop-down-menu">
+            <li><a href="">場館介紹</a>
+                <ul>
+                <li><a href="basketball.html">籃球場、排球場、羽球場</a></li>
+                <li><a href="tabletennis.html">桌球室</a></li>
+                <li><a href="gym.html">健身房</a></li>
+                </ul>
+            </li>
+            </ul>
+            <li><a href="video.html">宣傳影片</a></li>
+            <li><a href="https://pe.cycu.edu.tw/" target="_blank">
+                <img src="img/中原LOGO.png" width="60px" height="60px">
+                </a>
+            </li>
+            <li><a href="location.html">地理位置</a></li>
+            <li><a href="teamintroduce.html">組員介紹</a></li>
+            <li><a href="contact_us.html">聯絡我們</a></li>
+        </ul>
+    </div>
+    <div>
+        <img class="bg1" src="img/videobg1.png" alt="我們">
+        <p class="title1">由我們帶您導覽體育館</p>
+        <p class="smalltitle">小組四位組員誠摯的邀請您來一窺各場館的樣貌</p>
+        
+    </div>
+    <div1>
+        <article>
+            <h1 style="text-align: center;">以輕鬆活潑的方式進入場館</h1>
+            本影片將從體育館外部開始，一路走進內部各個場館，介紹主場的羽球場、籃球場以及排球場，再將畫面帶到地下一樓，展示新完工的健身房，和正在鍛鍊體態的學生，之後進一步介紹健身房旁的化妝室，近期才全新落成並且擁有乾濕分離的浴室。最後畫面將帶上來走廊深處的桌球教室，雖然位居深處但也不影響學生使用的意願，仍然有人在辛勤練球。
+            結尾再以小小的體育館設備介紹告終。我們展示了體育館的新型設施，並且誠摯的邀請您加入中原大學使用。
+        </article>
+    </div1>
+        <iframe class="video" width="728" height="409.5" src="https://www.youtube.com/embed/DUgCOQmauvI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+
+
+</body>
+</html>

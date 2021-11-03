@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-image: url(img/5-120601092204-51.gif);
+        }
+        .layer{
+            position: relative;
+            z-index: 1;
+        }
+
+        .mapword{
+            float: right;
+            font-size: 20px;
+            font-family: 微軟正黑體;
+            font-weight: bolder;
+            color: rgb(80, 55, 55);
+            
+        }
+        .timetable{
+            border: 6px;
+            position: relative;
+            padding: 20px;
+            width: 500px;
+            border-style: solid;
+            border-color: black;
+            border-radius:15px 15px;
+            background-color: lightgray;
+            float: left;
+        }
+
+        .place{
+            border: 6px;
+            position: relative;
+            padding: 20px;
+            width: 500px;
+            border-style: solid;
+            border-color: black;
+            border-radius:15px 15px;
+            background-color: lightgray;
+            float: right;
+        }
+
+        .part2{
+            width: 1500px;
+            position: relative;
+            top: 20px;
+            margin: 60px;
+            margin-left: 200px;
+            margin-right: 200px;
+            
+            
+        }
+        article{
+            font-size: 24px;
+            filter: none;
+            color: black;
+            text-indent: 42pt;
+            letter-spacing: 3pt;
+            line-height: 1.5cm;
+            font-weight: bolder; 
+            padding: 25pt;
+        }
+        .super{
+            font-size: 24px;
+            filter: none;
+            color: black;
+            text-indent: 42pt;
+            letter-spacing: 3pt;
+            line-height: 1.5cm;
+            font-weight: bolder; 
+        }
+    
+    </style>
+    <link rel="stylesheet" href="css/index.css">
+
+    <title>地理位置</title>
+</head>
+<body>
+    <div class="layer">
+        <ul class="index">
+            <li><a href="index.html">網站首頁</a></li>
+            <ul class="drop-down-menu">
+            <li><a href="">場館介紹</a>
+                <ul>
+                <li><a href="basketball.html">籃球場、排球場、羽球場</a></li>
+                <li><a href="tabletennis.html">桌球室</a></li>
+                <li><a href="gym.html">健身房</a></li>
+                </ul>
+            </li>
+            </ul>
+            <li><a href="video.html">宣傳影片</a></li>
+            <li><a href="https://pe.cycu.edu.tw/" target="_blank">
+                <img src="img/中原LOGO.png" width="60px" height="60px">
+                </a>
+            </li>
+            <li><a href="location.html">地理位置</a></li>
+            <li><a href="teamintroduce.html">組員介紹</a></li>
+            <li><a href="contact_us.html">聯絡我們</a></li>
+        </ul>
+    </div>
+    <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d380.21280634895714!2d121.24062078724704!3d24.958826043902075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34681f559f0b559f%3A0x7b9f48f4c91f7dc1!2z6bql55W25YueLeS4reWjouS4reWOn-W6lw!5e0!3m2!1szh-TW!2stw!4v1635941758496!5m2!1szh-TW!2stw" width="1903" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <span class="mapword">※可使用左上角路線規劃協助您抵達</span>
+    </div>
+
+    <div class="part2">
+        <div class="timetable">
+            <article>
+                <ul><span style="font-size: 35px;"><b>開放時間</b></span></ul>
+                    <li>周一 09:10~22:00</li>
+                    <li>周二 09:10~22:00</li>
+                    <li>周三 09:10~22:00</li>
+                    <li>周四 09:10~22:00</li>
+                    <li>周五 09:10~22:00</li>
+            </article>
+        </div>
+
+        <div class="place">
+            <article>
+                <ul><span style="font-size: 35px;"><b>附近地點</b></span></ul>
+                    <a href="location1.html" class="super"><li>中原夜市</li></a>
+                    <a href="location2.html" class="super"><li>中原國小地下停車場</li></a>
+                    <a href="location3.html" class="super"><li>麥當勞477門市</li></a>
+                    <a href="location4.html" class="super"><li>熱誠宿舍</li></a>
+                    <a href="location5.html" class="super"><li>早啊早餐店</li> </a>
+            </article>
+        </div>
+    </div>
+
+</body>
+</html>
