@@ -14,12 +14,14 @@
     body
         {
             background-image:url(img/bgtt.jpg);
-            font-family:"微軟正黑體"
+            font-family:"微軟正黑體";
+            margin: 0cm;
+            
 
         }
     .name 
     {
-        border: 1px solid #364196;
+        border: 0px solid #364196;
         border-left-width: 50px;
         padding: 10px 1753px 20px 100px;
         background-color:white;
@@ -60,9 +62,9 @@
     }
 
     .title
-{
+{   padding-left: 0cm;
     column-span: all;
-	text-align: center;
+	  text-align: center;
     text-shadow: 0px 3px 0px white,
 
                  0px 14px 10px rgba(0,0,0,0.15),
@@ -71,12 +73,24 @@
 
                  0px 34px 30px rgba(0,0,0,0.1);
 }
+footer {
+            position: absolute;
+            top: 1700px;
+            left: 0px;  
+            height: 100px;
+            background-color: black;
+            width: 100%;
+        }
+        footer>p{          
+            color: white;
+            text-align: center;
+        }
     </style>  
 </head>
 <body>
   <div>
     <ul class="index">
-        <li><a href="index.html">首頁</a></li>
+        <li><a href="index.html">網站首頁</a></li>
         <ul class="drop-down-menu">
         <li><a href="">場館介紹</a>
             <ul>
@@ -110,7 +124,7 @@
                 <img src="img\hank.jpg"width="150px">
                 </div>
               <div class="BoxText1">
-              <p><a href="https://www.instagram.com/how_en_hank/">陳澔恩<img src="img/ig.png"width=20px></a></p>
+              <p><a href="https://www.instagram.com/how_en_hank/" target="_blank">陳澔恩<img src="img/ig.png"width=20px></a></p>
                   <p>  我負責的是網頁中的地理位置和影片介紹，還有剪輯影片工作，期中專案其實蠻趕的，並沒有太多時間可以做，加上還要拍影片，而且影片還有限制兩分鐘以內其實是很大的挑戰，
                     我們討論之後決定以臨場發揮的方式拍攝，辛苦剪輯出來的影片我自己也覺得滿意。
                 </p>
@@ -122,7 +136,7 @@
               <img src="img/zhuuuuu.jpg"width="150px">
               </div>
             <div class="BoxText1">
-              <p><a href="https://www.instagram.com/zhu_jynyi/">朱晉毅<img src="img/ig.png"width=20px></a></p>
+              <p><a href="https://www.instagram.com/zhu_jynyi/" target="_blank">朱晉毅<img src="img/ig.png"width=20px></a></p>
               <p>我負責的是網頁中的場館介紹，我覺得期中專案給我們的時間真的有點少，因此我們這組實在是沒有特別多時間去想跟討論，所以就採取分工的方式，每個人都負責一部分。
                 我覺得期中專案讓我學習到很多關於多媒體排版的技巧，以前不熟悉的多媒體技巧都透過這次的期中專案學習到了，
                 我們做出來的專案也非常成功，大家都非常滿意。
@@ -136,7 +150,7 @@
               <img src="img/boyccccc.jpg"width="150px">
               </div>
             <div class="BoxText1">
-              <p><a href="https://www.instagram.com/boyceccc/">史博宇<img src="img/ig.png"width=20px></a></p>
+              <p><a href="https://www.instagram.com/boyceccc/" target="_blank">史博宇<img src="img/ig.png"width=20px></a></p>
                <p> 這次專案我負責網頁中主頁的部分和影片介紹，多虧這一次的期中專案，讓我對html和css有更深的認識，除了上課所學的以外，也特地學一些課外的css加進網頁中。雖然因為時間因素，讓我們專案完成的有些許倉促
                  ，許多細節也沒做好，但我認為這仍是一個寶貴的經驗。
               </p>
@@ -148,7 +162,7 @@
               <img src="img/junnnnn.jpg"width="150px">
               </div>
             <div class="BoxText1">
-              <p><a href="https://www.instagram.com/junnn06.21/">王之軍<img src="img/ig.png"width=20px></a></p>
+              <p><a href="https://www.instagram.com/junnn06.21/" target="_blank">王之軍<img src="img/ig.png"width=20px></a></p>
                 <p>這次的專案我負責導覽列和組員介紹，透過這次讓我學會了如何做網頁，也才知道做網頁是多麼困難，可能哪裡少打
                     一些東西沒注意到就要從整個密密麻麻的程式碼中尋找，做的過程雖然有點艱辛，
                     但做出來看到成品之後還蠻開心的，雖然沒有到很好，但會繼續努力學習做網頁。
@@ -157,6 +171,9 @@
             </div>
       </div>
     </div>  
-
+    <footer>
+      <p>2021 CYCUIM</p>
+      <p>320314 桃園市中壢區中北路200號</p>
+      </footer>
 </body>
 </html>

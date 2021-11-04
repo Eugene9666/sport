@@ -9,7 +9,10 @@
     
     <title>Document</title>
     <style>
-     img{
+     body{
+            background-image: url(img/5-120601095138.jpg);
+        }
+     .img1{
          float: left;
          margin-right: 50px;
      }
@@ -17,13 +20,26 @@
          font-size: 30px;
          color:cadetblue
      }
+     footer {
+            position: absolute;
+            top: 850px;
+            left: 0px;  
+            height: 100px;
+            background-color: black;
+            width: 100%;
+        }
+        footer>p{          
+            color: white;
+            text-align: center;
+        }
     </style>
    
 </head>
 <body>
+
     <div>
         <ul class="index">
-            <li><a href="index.html">首頁</a></li>
+            <li><a href="index.html">網站首頁</a></li>
             <ul class="drop-down-menu">
             <li><a href="">場館介紹</a>
                 <ul>
@@ -43,14 +59,18 @@
             <li><a href="contact_us.html">聯絡我們</a></li>
         </ul>
     </div>
+
     <h1>桌球室</h1>
     <p>
     <a href="https://pe.cycu.edu.tw/">
-    <img src="img/2.JPG" width="500px" height="450px"></a>
+    <img class="img1" src="img/2.JPG" width="500px" height="450px"></a>
     <h2>左圖為我們中原大學體育館的桌球室，這邊比較可惜的是桌球室沒有跟其他像是體育關跟健身房一樣進行翻修。<br>
     不過我覺得這桌球室除了有點小以外就沒甚麼缺點了，燈光美氣氛佳。
     <br>大家只要想來打桌球交朋友切磋球技的話都可以來桌球室裡找到志同道合的朋友喔!</h2>
 </p>
-
+<footer>
+    <p>2021 CYCUIM</p>
+    <p>320314 桃園市中壢區中北路200號</p>
+    </footer>
 </body>
 </html>
